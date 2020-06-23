@@ -158,7 +158,9 @@ variable "lb_internal_ipaddress" {
 }
 
 variable "fgt_vmsize" {
-  default = "Standard_F4s"
+  # Changing for free account
+  #default = "Standard_F4s"
+  default = "Standard_F1s"
 }
 
 ##############################################################################################################
